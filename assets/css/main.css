@@ -870,11 +870,25 @@ section,
 }
 
 @media (max-width: 640px) {
+  .header .logo img{
+    max-height: 40px;
+  }
+  .sak{
+    justify-content:start;
+  }
+  .section{
+    min-height: 30vh;
+  }
   .hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
-
+  .social-media a{
+    display: none;
+  }
+  .hero .container{
+    left: 0;
+  }
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
